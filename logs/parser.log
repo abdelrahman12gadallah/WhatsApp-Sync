@@ -1,0 +1,372 @@
+2026-07-23 01:31:40.146 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 10 28491501: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:33:01.655 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Interviews Renewable Energy Technologies: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:33:15.389 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم WhatsApp Business: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:33:25.327 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 51644616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:33:35.533 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Skillfied 895 || 6:00pm Google Meet || 28th June 2026: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:33:49.529 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +234 806 740 1102: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:33:58.572 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 55750256: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:34:12.980 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 28145616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:34:21.926 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:34:30.906 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 25301414: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:34:40.980 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 03355891: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:35:02.854 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Lolo: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:35:51.647 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Mazen Analytics: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:36:05.230 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Bedaya: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:36:23.006 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Eng / Rehab: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:37:36.143 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 51644616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:37:57.556 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:40:00.055 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:51:50.878 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:52:32.878 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Lolo: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:52:40.788 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Interviews Renewable Energy Technologies: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:52:56.414 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم WhatsApp Business: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:02.839 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 51644616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:09.269 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Skillfied 895 || 6:00pm Google Meet || 28th June 2026: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:15.335 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Mazen Analytics: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:21.330 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +234 806 740 1102: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:27.184 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 55750256: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:33.192 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Bedaya: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:39.380 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 28145616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:45.591 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:52.379 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 25301414: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:53:58.476 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 03355891: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:54:04.565 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Eng / Rehab: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 01:54:19.995 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم WhatsApp Business: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:01:24.979 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:09:01.679 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:09:40.426 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Lolo: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:09:47.908 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Interviews Renewable Energy Technologies: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:09:58.511 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم WhatsApp Business: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:04.641 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 51644616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:10.955 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Skillfied 895 || 6:00pm Google Meet || 28th June 2026: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:16.950 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Mazen Analytics: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:22.973 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +234 806 740 1102: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:28.827 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 55750256: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:34.939 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Bedaya: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:40.948 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 28145616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:47.279 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:53.805 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 25301414: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:10:59.909 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 03355891: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:11:06.192 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Eng / Rehab: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:11:21.790 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم WhatsApp Business: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:13:59.891 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:26:57.490 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:27:03.689 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Lolo: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:27:12.444 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Interviews Renewable Energy Technologies: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:27:20.007 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم WhatsApp Business: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:27:26.822 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 51644616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:27:33.557 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Skillfied 895 || 6:00pm Google Meet || 28th June 2026: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:27:39.638 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Mazen Analytics: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:27:41.113 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +234 806 740 1102: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:28:09.828 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:28:48.392 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Lolo: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:28:56.956 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Interviews Renewable Energy Technologies: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:07.280 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم WhatsApp Business: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:13.749 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 51644616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:20.458 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Skillfied 895 || 6:00pm Google Meet || 28th June 2026: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:26.627 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Mazen Analytics: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:32.856 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +234 806 740 1102: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:38.762 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 55750256: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:44.847 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Bedaya: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:51.224 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 28145616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:29:57.443 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:30:04.581 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 25301414: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:30:10.639 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 03355891: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:30:16.962 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Eng / Rehab: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:31:59.305 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:33:53.424 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:34:32.129 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Lolo: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:34:39.830 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Interviews Renewable Energy Technologies: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:34:50.953 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم WhatsApp Business: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:34:57.280 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 51644616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:03.490 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Skillfied 895 || 6:00pm Google Meet || 28th June 2026: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:09.585 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Mazen Analytics: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:15.656 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +234 806 740 1102: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:21.521 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 15 55750256: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:27.574 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Bedaya: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:33.684 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 28145616: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:40.011 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:46.652 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 25301414: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:52.813 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم +20 11 03355891: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:35:58.880 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Eng / Rehab: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:37:03.124 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+
+2026-07-23 02:39:12.036 | WARNING  | parser.contacts:resolve_phone_for_current_chat:52 - فشل استخراج رقم Abdelrahman Gadallah: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[data-testid=\"contact-info-drawer\"]") to be visible
+

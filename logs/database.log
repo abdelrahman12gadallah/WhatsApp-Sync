@@ -1,0 +1,1675 @@
+2026-07-23 01:31:43.689 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] Abdelrahman Gadallah: .
+2026-07-23 01:31:44.280 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] Abdelrahman Gadallah: .testing
+2026-07-23 01:31:45.240 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] +20 10 28491501: Hell
+2026-07-23 01:31:45.632 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] +20 10 28491501: Hello
+2026-07-23 01:31:46.680 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] +20 10 28491501: ..
+2026-07-23 01:31:46.952 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] +20 10 28491501: Hi
+2026-07-23 01:32:17.157 | DEBUG    | services.media:capture_image:49 - فشل التقاط صورة الرسالة ACACE5C2AAF6BAF03774937020E54EB7: ElementHandle.screenshot: Timeout 30000ms exceeded.
+Call log:
+taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #1
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #2
+  -   waiting 20ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #3
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #4
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #5
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #6
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #7
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #8
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #9
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #10
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #11
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #12
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #13
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #14
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #15
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #16
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #17
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #18
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #19
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #20
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #21
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #22
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #23
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #24
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #25
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #26
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #27
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #28
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #29
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #30
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #31
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #32
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #33
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #34
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #35
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #36
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #37
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #38
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #39
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #40
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #41
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #42
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #43
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #44
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #45
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #46
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #47
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #48
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #49
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #50
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #51
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #52
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #53
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #54
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #55
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #56
+  -   waiting 500ms
+
+2026-07-23 01:32:17.439 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] +20 10 28491501: [image] (بدون ملف)
+2026-07-23 01:32:47.653 | DEBUG    | services.media:capture_image:49 - فشل التقاط صورة الرسالة AC0CDA9D88E02506BDA885EA3C42CED2: ElementHandle.screenshot: Timeout 30000ms exceeded.
+Call log:
+taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #1
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #2
+  -   waiting 20ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #3
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #4
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #5
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #6
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #7
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #8
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #9
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #10
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #11
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #12
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #13
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #14
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #15
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #16
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #17
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #18
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #19
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #20
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #21
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #22
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #23
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #24
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #25
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #26
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #27
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #28
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #29
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #30
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #31
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #32
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #33
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #34
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #35
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #36
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #37
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #38
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #39
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #40
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #41
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #42
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #43
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #44
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #45
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #46
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #47
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #48
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #49
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #50
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #51
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #52
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #53
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #54
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #55
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #56
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #57
+  -   waiting 500ms
+
+2026-07-23 01:32:48.020 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] +20 10 28491501: [image] (بدون ملف)
+2026-07-23 01:32:48.345 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] Abdelrahman Gadallah: ..
+2026-07-23 01:32:48.699 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] Abdelrahman Gadallah: السلام عليكم ورحمة الله وبركاته
+2026-07-23 01:32:48.933 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] Abdelrahman Gadallah: وعليكم السلام ورحمة الله وبركاته
+2026-07-23 01:32:49.863 | INFO     | services.repository:save_message:73 - 💬 [+20 10 28491501] Abdelrahman Gadallah: ..
+2026-07-23 01:33:02.245 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 01802954: دي هتبقي لغير ال حضر يوم التلات ؟؟
+2026-07-23 01:33:02.683 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] Interviews Renewable Energy Technologies: [text] (بدون ملف)
+2026-07-23 01:33:03.090 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 62926827: عاش عاش عاش  .. شكرا  جدا
+2026-07-23 01:33:03.523 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 15 59861291: السلام عليكم
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+ولحين ذلك تم حجب النتيجة 
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم
+2026-07-23 01:33:03.879 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 01802954: اونلاين على زوم !؟
+2026-07-23 01:33:04.118 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 15 59861291: تمام هيتبعت لينك ؟
+2026-07-23 01:33:04.702 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 4230471300.png
+2026-07-23 01:33:05.040 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] Interviews Renewable Energy Technologies: [image] ✅
+2026-07-23 01:33:05.332 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] Interviews Renewable Energy Technologies: [text] (بدون ملف)
+2026-07-23 01:33:05.714 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 11 53354135: انا لسه داخل دلوقتي
+2026-07-23 01:33:06.014 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 11 53354135: ف لوفي حاجه  اتبعت بخصوص الانترفيو االاونلاين
+2026-07-23 01:33:06.460 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 15 08445554: السلام عليكم
+
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+
+ولحين ذلك تم حجب النتيجة 
+
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم
+2026-07-23 01:33:06.713 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 15 08445554: MS Teams
+2026-07-23 01:33:06.992 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 11 53354135: السلام عليكم
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+ولحين ذلك تم حجب النتيجة 
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم
+2026-07-23 01:33:07.356 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] Interviews Renewable Energy Technologies: [text] (بدون ملف)
+2026-07-23 01:33:16.074 | INFO     | services.repository:save_message:73 - 💬 [WhatsApp Business] WhatsApp Business: [text] (بدون ملف)
+2026-07-23 01:33:16.421 | INFO     | services.repository:save_message:73 - 💬 [WhatsApp Business] WhatsApp Business: Welcome to WhatsApp Business 
+
+
+
+Congrats on taking your business to the next level! Now you can access our free, valuable tools—like automated messages, catalogs and orders—to help you:
+
+
+
+ Reach more customers
+
+
+
+ Respond faster
+
+
+
+ Grow your sales
+
+
+
+Go to the Tools Tab to find out more and get started. 
+2026-07-23 01:33:16.625 | INFO     | services.repository:save_message:73 - 💬 [WhatsApp Business] WhatsApp Business: Create a friendly greeting message that says more than hello! 
+
+
+
+ Automatically welcome customers with a warm, reassuring message.
+
+
+
+ Share key information, like your business hours or a link to your catalog.
+
+
+
+To turn yours on, go to tools > greeting message > toggle. 
+2026-07-23 01:33:16.990 | INFO     | services.repository:save_message:73 - 💬 [WhatsApp Business] WhatsApp Business: NEW: Reserve your username before it’s taken!
+
+
+
+ Usernames make it easier for customers to find you, helping your business grow.
+
+
+
+ With no need to share their number, customers will love the added privacy.
+
+
+
+ Match your Instagram or Facebook handle or pick something new.  
+2026-07-23 01:33:26.257 | INFO     | services.repository:save_message:73 - 💬 [+20 15 51644616] +20 15 51644616: شكرا لاهتمام حضرتك هتم المراجعة والتواصل اذا وافقت الشروط
+2026-07-23 01:33:36.242 | INFO     | services.repository:save_message:73 - 💬 [Skillfied 895 || 6:00pm Google Meet || 28th June 2026] +91 89205 94214:  LAST CHANCE TO JOIN! 
+
+
+
+Many students missed the opportunity earlier, so we've re-opened a limited number of internship seats! 
+
+
+
+ Virtual | Project-Based Internship
+
+
+
+ Real-Time Industry Projects
+
+ Flexible Working Hours
+
+ Internship Completion Certificate
+
+ Career Guidance & Mentorship
+
+
+
+ Registrations will be closed once the remaining seats are filled.
+
+
+
+ Register Now:
+
+ https://shorturl.at/4dIKK]
+
+
+
+ Don't wait until the seats are full! Register now and secure your spot. 
+2026-07-23 01:33:49.929 | INFO     | services.repository:save_message:73 - 💬 [+234 806 740 1102] Abdelrahman Gadallah: شكرا
+2026-07-23 01:33:59.401 | INFO     | services.repository:save_message:73 - 💬 [+20 15 55750256] +20 15 55750256: [text] (بدون ملف)
+2026-07-23 01:34:13.414 | INFO     | services.repository:save_message:73 - 💬 [+20 11 28145616] Abdelrahman Gadallah: بكام
+2026-07-23 01:34:22.589 | INFO     | services.repository:save_message:73 - 💬 [(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي] (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: [text] (بدون ملف)
+2026-07-23 01:34:31.539 | INFO     | services.repository:save_message:73 - 💬 [+20 11 25301414] +20 11 25301414: [text] (بدون ملف)
+2026-07-23 01:34:31.824 | INFO     | services.repository:save_message:73 - 💬 [+20 11 25301414] Abdelrahman Gadallah: لأ شكرا للأسف الشغل ده مش مناسب معايا الفتره دي
+2026-07-23 01:34:41.480 | INFO     | services.repository:save_message:73 - 💬 [+20 11 03355891] Abdelrahman Gadallah: هل متاح شغل تحليل بيانات أنا خريج كلية ذكاء اصطناعي لو فيه فرصه متاحه ليها علاقه بتحليل البينات أو ال it ابعتلك ال cv
+2026-07-23 01:35:03.440 | INFO     | services.repository:save_message:73 - 💬 [Lolo] Lolo: [text] (بدون ملف)
+2026-07-23 01:35:33.609 | DEBUG    | services.media:capture_image:49 - فشل التقاط صورة الرسالة ACB3D54272F5076D8F45EB14D09903B0: ElementHandle.screenshot: Timeout 30000ms exceeded.
+Call log:
+taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+  -   waiting for element to be stable
+
+2026-07-23 01:35:34.203 | INFO     | services.repository:save_message:73 - 💬 [Lolo] Lolo: [image] (بدون ملف)
+2026-07-23 01:35:34.463 | INFO     | services.repository:save_message:73 - 💬 [Lolo] Lolo: Test
+2026-07-23 01:35:52.239 | INFO     | services.repository:save_message:73 - 💬 [Mazen Analytics] Mazen Analytics: [text] (بدون ملف)
+2026-07-23 01:36:05.861 | INFO     | services.repository:save_message:73 - 💬 [Bedaya] Bedaya: [text] (بدون ملف)
+2026-07-23 01:36:23.440 | INFO     | services.repository:save_message:73 - 💬 [Eng / Rehab] Abdelrahman Gadallah: تمام شكرا
+2026-07-23 01:37:36.532 | INFO     | services.repository:save_message:73 - 💬 [+20 15 51644616] +20 15 51644616: [text] (بدون ملف)
+2026-07-23 01:37:36.875 | INFO     | services.repository:save_message:73 - 💬 [+20 15 51644616] +20 15 51644616: [text] (بدون ملف)
+2026-07-23 01:37:58.110 | INFO     | services.repository:save_message:73 - 💬 [(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي] (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: [text] (بدون ملف)
+2026-07-23 01:37:58.414 | INFO     | services.repository:save_message:73 - 💬 [(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي] (682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي: [text] (بدون ملف)
+2026-07-23 01:40:00.578 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACFAA4B48F15B210FCE94BE2B6DD3995.png
+2026-07-23 01:40:01.041 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: [image] ✅
+2026-07-23 01:51:51.228 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: [text] (بدون ملف)
+2026-07-23 01:51:51.492 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: .
+2026-07-23 01:51:51.760 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: Follow the محب الشيخ أمجد سمير channel on WhatsApp: https://whatsapp.com/channel/0029Vb7jl527T8bPMzKrXW3L
+2026-07-23 01:51:52.025 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: http://youtube.com/post/UgkxzVqbgmVcRjuyUuyHDkbQIhYBJgiQH_34?si=1jcxYT5CAODRvzwT
+2026-07-23 01:51:52.283 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: http://youtube.com/post/UgkxzVqbgmVcRjuyUuyHDkbQIhYBJgiQH_34?si=1jcxYT5CAODRvzwT
+2026-07-23 01:51:52.542 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: ..
+2026-07-23 01:51:53.125 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: Test
+2026-07-23 01:51:54.434 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACACE5C2AAF6BAF03774937020E54EB7.png
+2026-07-23 01:52:24.619 | DEBUG    | services.media:capture_image:49 - فشل التقاط صورة الرسالة AC0CDA9D88E02506BDA885EA3C42CED2: ElementHandle.screenshot: Timeout 30000ms exceeded.
+Call log:
+taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #1
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #2
+  -   waiting 20ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #3
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #4
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #5
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #6
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #7
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #8
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #9
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #10
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #11
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #12
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #13
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #14
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #15
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #16
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #17
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #18
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #19
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #20
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #21
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #22
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #23
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #24
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #25
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #26
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #27
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #28
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #29
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #30
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #31
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #32
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #33
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #34
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #35
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #36
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #37
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #38
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #39
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #40
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #41
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #42
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #43
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #44
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #45
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #46
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #47
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #48
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not stable
+  - retrying scroll into view action, attempt #49
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #50
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #51
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #52
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #53
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #54
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #55
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #56
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #57
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #58
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #59
+  -   waiting 500ms
+
+2026-07-23 01:52:26.525 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACFAA4B48F15B210FCE94BE2B6DD3995.png
+2026-07-23 01:52:33.425 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACB3D54272F5076D8F45EB14D09903B0.png
+2026-07-23 01:52:41.256 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 12 22636986: 18/8 تقريبا
+2026-07-23 01:52:41.508 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 12 22636986: معانا حوالي شهر
+2026-07-23 01:52:41.911 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 22136123: هو يوم واحد وخلاص
+2026-07-23 01:52:42.355 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 23224673: معنديش معلومه للاسف
+2026-07-23 01:52:42.666 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 22136123: معنديش معلومه للاسف
+2026-07-23 01:52:43.040 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] Interviews Renewable Energy Technologies: [text] (بدون ملف)
+2026-07-23 01:52:43.290 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 01802954: مساء الخي يا شباب
+2026-07-23 01:52:43.553 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 01802954: دي اسماء المقبولين معنا ان شاء الله
+2026-07-23 01:52:43.826 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 01802954: الباقي قائمة انتظار
+2026-07-23 01:52:44.214 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 96910219: هو بداية التدريب ان شاء الله هتبقى امتى بالظبط؟
+2026-07-23 01:52:44.473 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 96910219: 18/8 اكيد؟
+2026-07-23 01:52:44.738 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 01802954: هبعت لكم تاني حالا
+2026-07-23 01:52:45.028 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] Interviews Renewable Energy Technologies: [text] (بدون ملف)
+2026-07-23 01:52:45.352 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: A54F394A0C5289DDD0CC95AA0737D280.png
+2026-07-23 01:52:45.728 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] Interviews Renewable Energy Technologies: [image] ✅
+2026-07-23 01:52:46.123 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 3662816491.png
+2026-07-23 01:52:46.439 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] Interviews Renewable Energy Technologies: [image] ✅
+2026-07-23 01:52:46.705 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 10 01802954: السلام عليكم
+
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+
+ولحين ذلك تم حجب النتيجة 
+
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم
+2026-07-23 01:52:47.236 | INFO     | services.repository:save_message:73 - 💬 [Interviews Renewable Energy Technologies] +20 12 12007488: السلام عليكم
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+ولحين ذلك تم حجب النتيجة 
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم
+2026-07-23 01:52:48.374 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 4230471300.png
+2026-07-23 02:01:25.242 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ۚ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا
+2026-07-23 02:09:03.214 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACACE5C2AAF6BAF03774937020E54EB7.png
+2026-07-23 02:09:33.359 | DEBUG    | services.media:capture_image:49 - فشل التقاط صورة الرسالة AC0CDA9D88E02506BDA885EA3C42CED2: ElementHandle.screenshot: Timeout 30000ms exceeded.
+Call log:
+taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #1
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #2
+  -   waiting 20ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #3
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #4
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #5
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #6
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #7
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #8
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #9
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #10
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #11
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #12
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #13
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #14
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #15
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #16
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #17
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #18
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #19
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #20
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #21
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #22
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #23
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #24
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #25
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #26
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #27
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #28
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #29
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #30
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #31
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #32
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #33
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #34
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #35
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #36
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #37
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #38
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #39
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #40
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #41
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #42
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #43
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #44
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #45
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #46
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #47
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #48
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #49
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #50
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #51
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #52
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #53
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #54
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #55
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #56
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #57
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #58
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #59
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #60
+  -   waiting 500ms
+
+2026-07-23 02:09:34.133 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACFAA4B48F15B210FCE94BE2B6DD3995.png
+2026-07-23 02:09:40.881 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACB3D54272F5076D8F45EB14D09903B0.png
+2026-07-23 02:09:49.161 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: A54F394A0C5289DDD0CC95AA0737D280.png
+2026-07-23 02:09:49.839 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 3662816491.png
+2026-07-23 02:09:50.865 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 4230471300.png
+2026-07-23 02:14:00.191 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ
+2026-07-23 02:27:04.308 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACB3D54272F5076D8F45EB14D09903B0.png
+2026-07-23 02:28:11.373 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACACE5C2AAF6BAF03774937020E54EB7.png
+2026-07-23 02:28:41.530 | DEBUG    | services.media:capture_image:49 - فشل التقاط صورة الرسالة AC0CDA9D88E02506BDA885EA3C42CED2: ElementHandle.screenshot: Timeout 30000ms exceeded.
+Call log:
+taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #1
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #2
+  -   waiting 20ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #3
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #4
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #5
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #6
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #7
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #8
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #9
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #10
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #11
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #12
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #13
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #14
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #15
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #16
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #17
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #18
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #19
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #20
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #21
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #22
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #23
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #24
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #25
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #26
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #27
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #28
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #29
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #30
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #31
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #32
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #33
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #34
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #35
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #36
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #37
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #38
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #39
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #40
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #41
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #42
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #43
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #44
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #45
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #46
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #47
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #48
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #49
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #50
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #51
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #52
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #53
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #54
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #55
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #56
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #57
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #58
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #59
+  -   waiting 500ms
+
+2026-07-23 02:28:42.252 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACFAA4B48F15B210FCE94BE2B6DD3995.png
+2026-07-23 02:28:48.928 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACB3D54272F5076D8F45EB14D09903B0.png
+2026-07-23 02:28:58.330 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: A54F394A0C5289DDD0CC95AA0737D280.png
+2026-07-23 02:28:58.729 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 3662816491.png
+2026-07-23 02:28:59.587 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 4230471300.png
+2026-07-23 02:31:59.632 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: خِتَٰمُهُۥ مِسْكࣱۚ وَفِي ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ
+2026-07-23 02:33:54.842 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACACE5C2AAF6BAF03774937020E54EB7.png
+2026-07-23 02:34:24.984 | DEBUG    | services.media:capture_image:49 - فشل التقاط صورة الرسالة AC0CDA9D88E02506BDA885EA3C42CED2: ElementHandle.screenshot: Timeout 30000ms exceeded.
+Call log:
+taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #1
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #2
+  -   waiting 20ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #3
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #4
+  -   waiting 100ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #5
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #6
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #7
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #8
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #9
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #10
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #11
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #12
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #13
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #14
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #15
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #16
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #17
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #18
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #19
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #20
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #21
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #22
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #23
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #24
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #25
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #26
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #27
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #28
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #29
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #30
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #31
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #32
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #33
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #34
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #35
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #36
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #37
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #38
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #39
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #40
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #41
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #42
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #43
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #44
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #45
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #46
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #47
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #48
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #49
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #50
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #51
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #52
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #53
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #54
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #55
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #56
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #57
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #58
+  -   waiting 500ms
+  -   waiting for element to be stable
+  -   element is not visible
+  - retrying scroll into view action, attempt #59
+  -   waiting 500ms
+
+2026-07-23 02:34:25.677 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACFAA4B48F15B210FCE94BE2B6DD3995.png
+2026-07-23 02:34:32.633 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: ACB3D54272F5076D8F45EB14D09903B0.png
+2026-07-23 02:34:41.168 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: A54F394A0C5289DDD0CC95AA0737D280.png
+2026-07-23 02:34:41.829 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 3662816491.png
+2026-07-23 02:34:42.673 | INFO     | services.media:capture_image:45 - 🖼️  اتلقطت صورة: 4230471300.png
+2026-07-23 02:37:03.456 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ
+2026-07-23 02:39:12.319 | INFO     | services.repository:save_message:73 - 💬 [Abdelrahman Gadallah] Abdelrahman Gadallah: اعْلَمُوا أَنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌ بَيْنَكُمْ وَتَكَاثُرٌ فِي الْأَمْوَالِ وَالْأَوْلَادِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ الْكُفَّارَ نَبَاتُهُ ثُمَّ يَهِيجُ فَتَرَاهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَامًا ۖ وَفِي الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ اللَّهِ وَرِضْوَانٌ ۚ وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ

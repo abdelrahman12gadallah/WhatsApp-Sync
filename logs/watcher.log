@@ -1,0 +1,30 @@
+2026-07-23 01:32:54.876 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 10 17114203': Page.click: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[aria-label=\"Chat list\"] span[title=\"+20 10 17114203\"]")
+
+2026-07-23 01:33:41.258 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 15 54124505': Page.click: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[aria-label=\"Chat list\"] span[title=\"+20 15 54124505\"]")
+
+2026-07-23 01:34:04.430 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 15 01855281': Page.click: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[aria-label=\"Chat list\"] span[title=\"+20 15 01855281\"]")
+
+2026-07-23 01:34:46.496 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 11 11262632': Page.click: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("div[aria-label=\"Chat list\"] span[title=\"+20 11 11262632\"]")
+
+2026-07-23 01:43:29.612 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات 'Bedaya': Page.click: Target page, context or browser has been closed
+2026-07-23 01:43:29.620 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 11 28145616': Page.click: Target page, context or browser has been closed
+2026-07-23 01:43:29.621 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي': Page.click: Target page, context or browser has been closed
+2026-07-23 01:43:29.621 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 11 25301414': Page.click: Target page, context or browser has been closed
+2026-07-23 01:43:29.637 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 11 03355891': Page.click: Target page, context or browser has been closed
+2026-07-23 01:43:29.647 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات 'Eng / Rehab': Page.click: Target page, context or browser has been closed
+2026-07-23 02:27:41.130 | WARNING  | watcher.messages:_extract_and_save:118 - فشل استخراج رسالة A527085C9C6C2FD0124A5EDEDCDE0F58: ElementHandle.get_attribute: Target page, context or browser has been closed
+2026-07-23 02:27:41.140 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 15 55750256': Page.click: Target page, context or browser has been closed
+2026-07-23 02:27:41.217 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات 'Bedaya': Page.click: Target page, context or browser has been closed
+2026-07-23 02:27:41.349 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 11 28145616': Page.click: Target page, context or browser has been closed
+2026-07-23 02:27:41.408 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي': Page.click: Target page, context or browser has been closed
+2026-07-23 02:27:41.434 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 11 25301414': Page.click: Target page, context or browser has been closed
+2026-07-23 02:27:41.452 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات '+20 11 03355891': Page.click: Target page, context or browser has been closed
+2026-07-23 02:27:41.466 | WARNING  | watcher.chats:open_chat_by_name:55 - مقدرتش أفتح شات 'Eng / Rehab': Page.click: Target page, context or browser has been closed
