@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>WhatsApp Live</title>
+<style>
+    body { font-family: "Segoe UI", Tahoma, sans-serif; background: #e5ddd5; margin: 0; padding: 20px; }
+    
+    /* تنسيق الهيدر والزرار */
+    .header-container { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    h1 { color: #075e54; margin: 0; }
+    #sound-toggle { padding: 8px 16px; border: none; border-radius: 20px; cursor: pointer; font-weight: bold; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.15); transition: 0.3s; font-family: inherit; outline: none; }
+    #sound-toggle.active { background: #dcf8c6; color: #075e54; }
+    
+    .chat-block { background: white; border-radius: 8px; margin-bottom: 24px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+    .chat-block h2 { margin-top: 0; color: #075e54; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+    .messages { display: flex; flex-direction: column; gap: 6px; max-height: 500px; overflow-y: auto; scroll-behavior: smooth; }
+    .bubble { max-width: 70%; padding: 8px 12px; border-radius: 8px; font-size: 14px; }
+    .bubble.me { background: #dcf8c6; align-self: flex-start; }
+    .bubble.other { background: #f1f0f0; align-self: flex-end; }
+    .sender { font-weight: bold; font-size: 12px; color: #075e54; margin-bottom: 2px; }
+    .time { font-size: 10px; color: #999; margin-top: 4px; text-align: left; }
+    .msg-image { max-width: 260px; border-radius: 6px; display: block; }
+    .caption { margin-top: 4px; }
+    .media-placeholder { color: #666; font-style: italic; }
+    .updated { color: #666; font-size: 12px; margin-bottom: 20px; }
+    
+    .messages::-webkit-scrollbar { width: 6px; }
+    .messages::-webkit-scrollbar-thumb { background: #bbb; border-radius: 3px; }
+    .messages::-webkit-scrollbar-thumb:hover { background: #888; }
+</style>
+
+<script>
+    let isUserScrolling = false;
+    let soundEnabled = false;
+    let totalMessagesCount = 0;
+
+    // توليد صوت تنبيه برمجياً
+    function playNotificationSound(silent = false) {
+        if (!soundEnabled && !silent) return;
+        try {
+            let ctx = new (window.AudioContext || window.webkitAudioContext)();
+            let osc = ctx.createOscillator();
+            let gainNode = ctx.createGain();
+            
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(silent ? 0 : 750, ctx.currentTime); 
+            
+            gainNode.gain.setValueAtTime(silent ? 0 : 0.1, ctx.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
+            
+            osc.connect(gainNode);
+            gainNode.connect(ctx.destination);
+            
+            osc.start();
+            osc.stop(ctx.currentTime + 0.15);
+        } catch(e) {
+            console.log("الصوت غير مدعوم");
+        }
+    }
+
+    function toggleSound() {
+        soundEnabled = !soundEnabled;
+        let btn = document.getElementById('sound-toggle');
+        if (soundEnabled) {
+            btn.innerHTML = '🔔 الصوت مفعل';
+            btn.classList.add('active');
+            playNotificationSound(true); // فك حظر المتصفح
+        } else {
+            btn.innerHTML = '🔕 تفعيل الصوت';
+            btn.classList.remove('active');
+        }
+    }
+
+    function scrollToBottom() {
+        document.querySelectorAll('.messages').forEach(box => {
+            if (!isUserScrolling) {
+                box.scrollTop = box.scrollHeight;
+            }
+        });
+    }
+
+    document.addEventListener('scroll', function(e) {
+        if(e.target.classList && e.target.classList.contains('messages')) {
+            let box = e.target;
+            isUserScrolling = (box.scrollHeight - box.scrollTop - box.clientHeight) > 50;
+        }
+    }, true);
+
+    setInterval(() => {
+        fetch(window.location.href, { cache: "no-store" })
+        .then(response => response.text())
+        .then(html => {
+            let parser = new DOMParser();
+            let doc = parser.parseFromString(html, "text/html");
+            
+            let newContainer = doc.getElementById('chat-container');
+            let oldContainer = document.getElementById('chat-container');
+            let newUpdated = doc.getElementById('update-time').innerHTML;
+            let oldUpdated = document.getElementById('update-time').innerHTML;
+
+            if (newContainer && oldContainer && newUpdated !== oldUpdated) {
+                let newMessagesCount = doc.querySelectorAll('.bubble').length;
+                
+                oldContainer.innerHTML = newContainer.innerHTML;
+                document.getElementById('update-time').innerHTML = newUpdated;
+                
+                // لو فيه رسالة جديدة فعلية وصلت، شغل الصوت
+                if (newMessagesCount > totalMessagesCount) {
+                    playNotificationSound();
+                    totalMessagesCount = newMessagesCount;
+                }
+                
+                scrollToBottom();
+            }
+        })
+        .catch(err => console.log('جاري انتظار التحديث...'));
+    }, 2000);
+
+    window.onload = () => {
+        totalMessagesCount = document.querySelectorAll('.bubble').length;
+        scrollToBottom();
+    };
+</script>
+
+</head>
+<body>
+<div class="header-container">
+    <h1>💬 WhatsApp Live Dashboard</h1>
+    <button id="sound-toggle" onclick="toggleSound()">🔕 تفعيل الصوت</button>
+</div>
+<div class="updated" id="update-time">آخر تحديث: 2026-07-23 02:39:22</div>
+
+<div id="chat-container">
+
+        <section class="chat-block">
+            <h2>+20 10 28491501</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">.</div>
+        <div class="time">2026-07-22 22:31</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">.testing</div>
+        <div class="time">2026-07-22 22:31</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 28491501</div>
+        <div class="body">Hell</div>
+        <div class="time">2026-07-22 22:31</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 28491501</div>
+        <div class="body">Hello</div>
+        <div class="time">2026-07-22 22:31</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 28491501</div>
+        <div class="body">..</div>
+        <div class="time">2026-07-22 22:31</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 28491501</div>
+        <div class="body">Hi</div>
+        <div class="time">2026-07-22 22:31</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 28491501</div>
+        <div class="body"><div class="media-placeholder">📎 image</div></div>
+        <div class="time">2026-07-22 22:32</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 28491501</div>
+        <div class="body"><div class="media-placeholder">📎 image</div></div>
+        <div class="time">2026-07-22 22:32</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">..</div>
+        <div class="time">2026-07-22 22:32</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">السلام عليكم ورحمة الله وبركاته</div>
+        <div class="time">2026-07-22 22:32</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">وعليكم السلام ورحمة الله وبركاته</div>
+        <div class="time">2026-07-22 22:32</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">..</div>
+        <div class="time">2026-07-22 22:32</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>Interviews Renewable Energy Technologies</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">+20 10 01802954</div>
+        <div class="body">دي هتبقي لغير ال حضر يوم التلات ؟؟</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Interviews Renewable Energy Technologies</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 62926827</div>
+        <div class="body">عاش عاش عاش  .. شكرا  جدا</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 15 59861291</div>
+        <div class="body">السلام عليكم
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+ولحين ذلك تم حجب النتيجة 
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 01802954</div>
+        <div class="body">اونلاين على زوم !؟</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 15 59861291</div>
+        <div class="body">تمام هيتبعت لينك ؟</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Interviews Renewable Energy Technologies</div>
+        <div class="body"><img src="media\images\Interviews Renewable Energy Technologies\4230471300.png" class="msg-image" loading="lazy"></div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Interviews Renewable Energy Technologies</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 11 53354135</div>
+        <div class="body">انا لسه داخل دلوقتي</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 11 53354135</div>
+        <div class="body">ف لوفي حاجه  اتبعت بخصوص الانترفيو االاونلاين</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 15 08445554</div>
+        <div class="body">السلام عليكم
+
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+
+ولحين ذلك تم حجب النتيجة 
+
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 15 08445554</div>
+        <div class="body">MS Teams</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 11 53354135</div>
+        <div class="body">السلام عليكم
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+ولحين ذلك تم حجب النتيجة 
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Interviews Renewable Energy Technologies</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 12 22636986</div>
+        <div class="body">18/8 تقريبا</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 12 22636986</div>
+        <div class="body">معانا حوالي شهر</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 22136123</div>
+        <div class="body">هو يوم واحد وخلاص</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 23224673</div>
+        <div class="body">معنديش معلومه للاسف</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 22136123</div>
+        <div class="body">معنديش معلومه للاسف</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Interviews Renewable Energy Technologies</div>
+        <div class="body"></div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 01802954</div>
+        <div class="body">مساء الخي يا شباب</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 01802954</div>
+        <div class="body">دي اسماء المقبولين معنا ان شاء الله</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 01802954</div>
+        <div class="body">الباقي قائمة انتظار</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 96910219</div>
+        <div class="body">هو بداية التدريب ان شاء الله هتبقى امتى بالظبط؟</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 96910219</div>
+        <div class="body">18/8 اكيد؟</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 01802954</div>
+        <div class="body">هبعت لكم تاني حالا</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Interviews Renewable Energy Technologies</div>
+        <div class="body"></div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Interviews Renewable Energy Technologies</div>
+        <div class="body"><img src="media\images\Interviews Renewable Energy Technologies\A54F394A0C5289DDD0CC95AA0737D280.png" class="msg-image" loading="lazy"></div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Interviews Renewable Energy Technologies</div>
+        <div class="body"><img src="media\images\Interviews Renewable Energy Technologies\3662816491.png" class="msg-image" loading="lazy"></div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 10 01802954</div>
+        <div class="body">السلام عليكم
+
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+
+ولحين ذلك تم حجب النتيجة 
+
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 12 12007488</div>
+        <div class="body">السلام عليكم
+تم تحديد ميعاد انترفيو تكميلي يوم الثلاثاء القادم 28 يوليو الساعة 11 صباحا
+هتكون اونلاين علشان الطلبة اللي عايزة فرصة تانية للانترفيو
+ولحين ذلك تم حجب النتيجة 
+وسيتم اعلانها بعد الانترفيو التاني ان شاء الله
+
+
+الشباب اللي هتحضر الانترفيو التاني تعمل ريأكت علي كلامي هنا من فضلكم</div>
+        <div class="time">2026-07-23 01:52</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>WhatsApp Business</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">WhatsApp Business</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">WhatsApp Business</div>
+        <div class="body">Welcome to WhatsApp Business 
+
+
+
+Congrats on taking your business to the next level! Now you can access our free, valuable tools—like automated messages, catalogs and orders—to help you:
+
+
+
+ Reach more customers
+
+
+
+ Respond faster
+
+
+
+ Grow your sales
+
+
+
+Go to the Tools Tab to find out more and get started. </div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">WhatsApp Business</div>
+        <div class="body">Create a friendly greeting message that says more than hello! 
+
+
+
+ Automatically welcome customers with a warm, reassuring message.
+
+
+
+ Share key information, like your business hours or a link to your catalog.
+
+
+
+To turn yours on, go to tools &gt; greeting message &gt; toggle. </div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">WhatsApp Business</div>
+        <div class="body">NEW: Reserve your username before it’s taken!
+
+
+
+ Usernames make it easier for customers to find you, helping your business grow.
+
+
+
+ With no need to share their number, customers will love the added privacy.
+
+
+
+ Match your Instagram or Facebook handle or pick something new.  </div>
+        <div class="time">2026-07-22 22:33</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>+20 15 51644616</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">+20 15 51644616</div>
+        <div class="body">شكرا لاهتمام حضرتك هتم المراجعة والتواصل اذا وافقت الشروط</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 15 51644616</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:37</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">+20 15 51644616</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:37</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>Skillfied 895 || 6:00pm Google Meet || 28th June 2026</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">+91 89205 94214</div>
+        <div class="body"> LAST CHANCE TO JOIN! 
+
+
+
+Many students missed the opportunity earlier, so we&#x27;ve re-opened a limited number of internship seats! 
+
+
+
+ Virtual | Project-Based Internship
+
+
+
+ Real-Time Industry Projects
+
+ Flexible Working Hours
+
+ Internship Completion Certificate
+
+ Career Guidance &amp; Mentorship
+
+
+
+ Registrations will be closed once the remaining seats are filled.
+
+
+
+ Register Now:
+
+ https://shorturl.at/4dIKK]
+
+
+
+ Don&#x27;t wait until the seats are full! Register now and secure your spot. </div>
+        <div class="time">2026-07-22 22:33</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>+234 806 740 1102</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">شكرا</div>
+        <div class="time">2026-07-22 22:33</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>+20 15 55750256</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">+20 15 55750256</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:33</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>+20 11 28145616</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">بكام</div>
+        <div class="time">2026-07-22 22:34</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:34</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:37</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">(682)دورات مجانية للربح من الانترنت/صناعةالمحتوى/الذكاء الاصطناعي</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:37</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>+20 11 25301414</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">+20 11 25301414</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:34</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">لأ شكرا للأسف الشغل ده مش مناسب معايا الفتره دي</div>
+        <div class="time">2026-07-22 22:34</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>+20 11 03355891</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">هل متاح شغل تحليل بيانات أنا خريج كلية ذكاء اصطناعي لو فيه فرصه متاحه ليها علاقه بتحليل البينات أو ال it ابعتلك ال cv</div>
+        <div class="time">2026-07-22 22:34</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>Lolo</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Lolo</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:35</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Lolo</div>
+        <div class="body"><div class="media-placeholder">📎 image</div></div>
+        <div class="time">2026-07-22 22:35</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Lolo</div>
+        <div class="body">Test</div>
+        <div class="time">2026-07-22 22:35</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>Mazen Analytics</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Mazen Analytics</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:35</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>Bedaya</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Bedaya</div>
+        <div class="body"></div>
+        <div class="time">2026-07-22 22:36</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>Eng / Rehab</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">تمام شكرا</div>
+        <div class="time">2026-07-22 22:36</div>
+    </div></div>
+        </section>
+        <section class="chat-block">
+            <h2>Abdelrahman Gadallah</h2>
+            <div class="messages">
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body"><img src="media\images\Abdelrahman Gadallah\ACFAA4B48F15B210FCE94BE2B6DD3995.png" class="msg-image" loading="lazy"></div>
+        <div class="time">2026-07-22 22:40</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body"></div>
+        <div class="time">2026-07-23 01:51</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">.</div>
+        <div class="time">2026-07-23 01:51</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">Follow the محب الشيخ أمجد سمير channel on WhatsApp: https://whatsapp.com/channel/0029Vb7jl527T8bPMzKrXW3L</div>
+        <div class="time">2026-07-23 01:51</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">http://youtube.com/post/UgkxzVqbgmVcRjuyUuyHDkbQIhYBJgiQH_34?si=1jcxYT5CAODRvzwT</div>
+        <div class="time">2026-07-23 01:51</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">http://youtube.com/post/UgkxzVqbgmVcRjuyUuyHDkbQIhYBJgiQH_34?si=1jcxYT5CAODRvzwT</div>
+        <div class="time">2026-07-23 01:51</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">..</div>
+        <div class="time">2026-07-23 01:51</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">Test</div>
+        <div class="time">2026-07-23 01:51</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ۚ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا</div>
+        <div class="time">2026-07-23 02:01</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ</div>
+        <div class="time">2026-07-23 02:13</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">خِتَٰمُهُۥ مِسْكࣱۚ وَفِي ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ</div>
+        <div class="time">2026-07-23 02:31</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ</div>
+        <div class="time">2026-07-23 02:37</div>
+    </div>
+    <div class="bubble other">
+        <div class="sender">Abdelrahman Gadallah</div>
+        <div class="body">اعْلَمُوا أَنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌ بَيْنَكُمْ وَتَكَاثُرٌ فِي الْأَمْوَالِ وَالْأَوْلَادِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ الْكُفَّارَ نَبَاتُهُ ثُمَّ يَهِيجُ فَتَرَاهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَامًا ۖ وَفِي الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ اللَّهِ وَرِضْوَانٌ ۚ وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ</div>
+        <div class="time">2026-07-23 02:39</div>
+    </div></div>
+        </section>
+</div>
+
+</body>
+</html>
